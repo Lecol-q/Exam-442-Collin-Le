@@ -37,6 +37,7 @@ game/LevelUpOption.class
 game/StuffFactory$10.class
 game/StuffFactory.class
 ui/ThrowAtScreen.class
+game/CombatRules.class
 game/Tile.class
 ui/Screen.class
 game/StuffFactory$6.class

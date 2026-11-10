@@ -1,44 +1,45 @@
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/ApplicationMain.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/BatAi.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Creature.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/CreatureAi.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/EatScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Effect.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/FieldOfView.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/FungusAi.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/GoblinAi.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Inventory.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Item.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/LevelUpController.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/LevelUpOption.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Line.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Path.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/PathFinder.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/PlayerAi.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Point.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Spell.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/StuffFactory.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/Tile.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/World.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/WorldBuilder.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/game/ZombieAi.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/CastSpellScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/DropScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/EquipScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/ExamineScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/FireWeaponScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/HelpScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/InventoryBasedScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/LevelUpScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/LookScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/LoseScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/PlayScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/QuaffScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/ReadScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/ReadSpellScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/Screen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/StartScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/TargetBasedScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/ThrowAtScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/ThrowScreen.java
-/Users/cle/Towson 2026/JoshHack/src/main/java/ui/WinScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/ApplicationMain.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/BatAi.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/CombatRules.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Creature.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/CreatureAi.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/EatScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Effect.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/FieldOfView.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/FungusAi.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/GoblinAi.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Inventory.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Item.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/LevelUpController.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/LevelUpOption.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Line.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Path.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/PathFinder.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/PlayerAi.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Point.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Spell.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/StuffFactory.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/Tile.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/World.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/WorldBuilder.java
+/Users/cle/Downloads/JoshHack/src/main/java/game/ZombieAi.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/CastSpellScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/DropScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/EquipScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/ExamineScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/FireWeaponScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/HelpScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/InventoryBasedScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/LevelUpScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/LookScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/LoseScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/PlayScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/QuaffScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/ReadScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/ReadSpellScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/Screen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/StartScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/TargetBasedScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/ThrowAtScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/ThrowScreen.java
+/Users/cle/Downloads/JoshHack/src/main/java/ui/WinScreen.java
