@@ -1,0 +1,811 @@
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: /Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+Java version: 17.0.21, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "26.6", arch: "aarch64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/conf/settings.xml
+[DEBUG] Reading user settings from /Users/cle/.m2/settings.xml
+[DEBUG] Reading global toolchains from /Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/cle/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/cle/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/cle/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project edu.towson.cis.cosc442:joshhack:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.towson.cis.cosc442:joshhack:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.systemPath' for net.trystan:ascii-panel:jar should not point at files within the project directory, ${project.basedir}/libs/asciiPanel.jar will be unresolvable by dependent projects @ line 26, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] Creating adapter using nameMapper 'gaecv' and factory 'rwlock-local'
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: edu.towson.cis.cosc442:joshhack:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [org.pitest:pitest-maven:1.17.4:mutationCoverage]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------< edu.towson.cis.cosc442:joshhack >-------------------
+[INFO] Building joshhack 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       edu.towson.cis.cosc442:joshhack:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.pitest:pitest-maven:1.17.4:mutationCoverage (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${additionalClasspathElements}</additionalClasspathElements>
+  <additionalSources default-value="src/main/kotlin">${pit.additionalSources}</additionalSources>
+  <additionalTestSources default-value="src/test/kotlin">${pit.additionalTestSources}</additionalTestSources>
+  <argLine>${argLine}</argLine>
+  <avoidCallsTo>${avoidCallsTo}</avoidCallsTo>
+  <classpathDependencyExcludes>${classpathDependencyExcludes}</classpathDependencyExcludes>
+  <coverageThreshold default-value="0">${coverageThreshold}</coverageThreshold>
+  <crossModule default-value="false">${crossModule}</crossModule>
+  <detectInlinedCode default-value="true">${detectInlinedCode}</detectInlinedCode>
+  <dryRun default-value="false">${pit.dryRun}</dryRun>
+  <excludedClasses>${excludedClasses}</excludedClasses>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludedMethods>${excludedMethods}</excludedMethods>
+  <excludedRunners>${excludedRunners}</excludedRunners>
+  <excludedTestClasses>${excludedTestClasses}</excludedTestClasses>
+  <exportLineCoverage default-value="false">${exportLineCoverage}</exportLineCoverage>
+  <extraFeatures>${extraFeatures}</extraFeatures>
+  <failWhenNoMutations default-value="true">${failWhenNoMutations}</failWhenNoMutations>
+  <features>${features}</features>
+  <fullMutationMatrix default-value="false">${fullMutationMatrix}</fullMutationMatrix>
+  <historyInputFile>${historyInputFile}</historyInputFile>
+  <historyOutputFile>${historyOutputFile}</historyOutputFile>
+  <includedGroups>${includedGroups}</includedGroups>
+  <includedTestMethods>${includedTestMethods}</includedTestMethods>
+  <inputEncoding default-value="${project.build.sourceEncoding}">${pit.inputEncoding}</inputEncoding>
+  <jvmArgs>${jvmArgs}</jvmArgs>
+  <maxMutationsPerClass default-value="-1">${maxMutationsPerClass}</maxMutationsPerClass>
+  <maxSurviving default-value="-1">${maxSurviving}</maxSurviving>
+  <mutationEngine default-value="gregor">${mutationEngine}</mutationEngine>
+  <mutationThreshold default-value="0">${mutationThreshold}</mutationThreshold>
+  <mutationUnitSize>${mutationUnitSize}</mutationUnitSize>
+  <mutators>${mutators}</mutators>
+  <outputEncoding default-value="${project.reporting.outputEncoding}">${pit.outputEncoding}</outputEncoding>
+  <outputFormats>
+    <outputFormat>HTML</outputFormat>
+    <outputFormat>XML</outputFormat>${outputFormats}</outputFormats>
+  <parseSurefireArgLine default-value="true"/>
+  <parseSurefireConfig default-value="true"/>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <project>${project}</project>
+  <projectBase default-value="${session.executionRootDirectory}">${projectBase}</projectBase>
+  <reportsDirectory default-value="${project.build.directory}/pit-reports">${reportsDirectory}</reportsDirectory>
+  <session default-value="${session}"/>
+  <settings>${settings}</settings>
+  <skip default-value="false">${skipPitest}</skip>
+  <skipFailingTests default-value="false"/>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <targetClasses>
+    <param>game.*</param>${targetClasses}</targetClasses>
+  <targetTests>
+    <param>game.*</param>${targetTests}</targetTests>
+  <testStrengthThreshold default-value="0">${testStrengthThreshold}</testStrengthThreshold>
+  <threads default-value="1">${threads}</threads>
+  <timeoutConstant default-value="3000">${timeoutConstant}</timeoutConstant>
+  <timeoutFactor default-value="1.25">${timeoutFactor}</timeoutFactor>
+  <timestampedReports default-value="false">${timestampedReports}</timestampedReports>
+  <useClasspathJar default-value="false">${useClasspathJar}</useClasspathJar>
+  <useSlf4j default-value="false">${useSlf4j}</useSlf4j>
+  <verbose default-value="false">${verbose}</verbose>
+  <verbosity default-value="DEFAULT">${verbosity}</verbosity>
+  <withHistory default-value="false">${withHistory}</withHistory>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=159209, ConflictMarker.markTime=32833, ConflictMarker.nodeCount=18, ConflictIdSorter.graphTime=86083, ConflictIdSorter.topsortTime=71500, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=804958, ConflictResolver.conflictItemCount=17, DfDependencyCollector.collectTime=11631875, DfDependencyCollector.transformTime=1583625}
+[DEBUG] edu.towson.cis.cosc442:joshhack:jar:1.0-SNAPSHOT
+[DEBUG]    net.trystan:ascii-panel:jar:1.1:system
+[DEBUG]    org.junit.jupiter:junit-jupiter:jar:5.14.1:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.14.1:test
+[DEBUG]          org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.14.1:test
+[DEBUG]          org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-params:jar:5.14.1:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-engine:jar:5.14.1:test
+[DEBUG]          org.junit.platform:junit-platform-engine:jar:1.14.1:test
+[INFO] 
+[INFO] --- pitest:1.17.4:mutationCoverage (default-cli) @ joshhack ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus-snapshots (http://nexus.codehaus.org/snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for repository.jboss.org (http://repository.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots.jboss.org (http://snapshots.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for oss.sonatype.org/jboss-snapshots (http://oss.sonatype.org/content/repositories/jboss-snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for powermock-repo (http://powermock.googlecode.com/svn/repo/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=508667, ConflictMarker.markTime=268458, ConflictMarker.nodeCount=438, ConflictIdSorter.graphTime=208333, ConflictIdSorter.topsortTime=55750, ConflictIdSorter.conflictIdCount=135, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5285417, ConflictResolver.conflictItemCount=293, DfDependencyCollector.collectTime=310789708, DfDependencyCollector.transformTime=6353417}
+[DEBUG] org.pitest:pitest-maven:jar:1.17.4
+[DEBUG]    org.pitest:pitest-junit5-plugin:jar:1.2.1:runtime
+[DEBUG]       org.junit.platform:junit-platform-launcher:jar:1.9.2:runtime
+[DEBUG]          org.junit.platform:junit-platform-engine:jar:1.9.2:runtime
+[DEBUG]             org.opentest4j:opentest4j:jar:1.2.0:runtime
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.9.2:runtime
+[DEBUG]          org.apiguardian:apiguardian-api:jar:1.1.2:runtime
+[DEBUG]    org.pitest:pitest-entry:jar:1.17.4:compile
+[DEBUG]       org.pitest:pitest:jar:1.17.4:compile
+[DEBUG]          org.ow2.asm:asm-commons:jar:9.7.1:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.7.1:compile
+[DEBUG]       org.ow2.asm:asm-util:jar:9.7.1:compile
+[DEBUG]          org.ow2.asm:asm-tree:jar:9.7.1:compile
+[DEBUG]          org.ow2.asm:asm-analysis:jar:9.7.1:compile
+[DEBUG]       org.apache.commons:commons-text:jar:1.12.0:compile
+[DEBUG]    org.pitest:pitest-html-report:jar:1.17.4:compile
+[DEBUG]       org.antlr:stringtemplate:jar:3.2.1:compile
+[DEBUG]          antlr:antlr:jar:2.7.7:compile
+[DEBUG]    org.pitest:pitest-aggregator:jar:1.17.4:compile
+[DEBUG]       com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.17.0:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.17.0:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.17.0:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.17.0:compile
+[DEBUG]             net.bytebuddy:byte-buddy:jar:1.14.9:compile
+[DEBUG]          org.codehaus.woodstox:stax2-api:jar:4.2.2:compile
+[DEBUG]          com.fasterxml.woodstox:woodstox-core:jar:6.6.1:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.11.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.11.1:compile
+[DEBUG]    commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]    commons-beanutils:commons-beanutils:jar:1.9.4:compile
+[DEBUG]       commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.3.1:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.8.6:provided (scope managed from default) (version managed from default)
+[DEBUG]          org.apache.maven:maven-model:jar:3.8.6:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:3.8.6:provided
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.8.6:provided
+[DEBUG]             org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0:provided
+[DEBUG]                org.codehaus.plexus:plexus-cipher:jar:2.0:provided
+[DEBUG]          org.apache.maven:maven-builder-support:jar:3.8.6:provided
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:3.8.6:provided
+[DEBUG]          org.apache.maven:maven-artifact:jar:3.8.6:compile
+[DEBUG]          org.apache.maven:maven-model-builder:jar:3.8.6:provided
+[DEBUG]          org.apache.maven:maven-resolver-provider:jar:3.8.6:provided
+[DEBUG]          org.apache.maven.resolver:maven-resolver-impl:jar:1.6.3:provided
+[DEBUG]          org.apache.maven.resolver:maven-resolver-api:jar:1.6.3:provided
+[DEBUG]          org.apache.maven.resolver:maven-resolver-spi:jar:1.6.3:provided
+[DEBUG]          org.apache.maven.resolver:maven-resolver-util:jar:1.6.3:provided
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile
+[DEBUG]             javax.annotation:javax.annotation-api:jar:1.2:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile
+[DEBUG]          com.google.inject:guice:jar:no_aop:4.2.2:provided
+[DEBUG]             aopalliance:aopalliance:jar:1.0:provided
+[DEBUG]             com.google.guava:guava:jar:25.1-android:provided
+[DEBUG]                com.google.code.findbugs:jsr305:jar:3.0.2:provided
+[DEBUG]                org.checkerframework:checker-compat-qual:jar:2.0.0:provided
+[DEBUG]                com.google.errorprone:error_prone_annotations:jar:2.1.3:provided
+[DEBUG]                com.google.j2objc:j2objc-annotations:jar:1.1:provided
+[DEBUG]                org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:provided
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.21:provided (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:2.1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:3.1.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.3.3:compile
+[DEBUG]          commons-io:commons-io:jar:2.6:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.11.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.11.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:2.1.0:compile
+[DEBUG]             org.apache.xbean:xbean-reflect:jar:3.7:compile
+[DEBUG]             com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.13:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.11:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.14:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-renderer:jar:1.11.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-skin-model:jar:1.11.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml:jar:1.11.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml5:jar:1.11.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10:compile
+[DEBUG]          org.codehaus.plexus:plexus-velocity:jar:1.2:compile
+[DEBUG]          org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]          org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]             commons-digester:commons-digester:jar:1.8:compile
+[DEBUG]             commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]             dom4j:dom4j:jar:1.1:compile
+[DEBUG]             oro:oro:jar:2.0.8:compile
+[DEBUG]    backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven.scm:maven-scm-api:jar:2.1.0:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.14.0:compile
+[DEBUG]    org.apache.maven.scm:maven-scm-manager-plexus:jar:2.1.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]    org.apache.maven.scm:maven-scm-providers-standard:pom:2.1.0:compile
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-gitexe:jar:2.1.0:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-git-commons:jar:2.1.0:runtime
+[DEBUG]             org.codehaus.plexus:plexus-xml:jar:3.0.0:runtime
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-jgit:jar:2.1.0:runtime
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.3:runtime
+[DEBUG]          org.eclipse.jgit:org.eclipse.jgit:jar:5.13.3.202401111512-r:runtime
+[DEBUG]             com.googlecode.javaewah:JavaEWAH:jar:1.1.13:runtime
+[DEBUG]          org.eclipse.jgit:org.eclipse.jgit.ssh.apache:jar:5.13.3.202401111512-r:runtime
+[DEBUG]             org.apache.sshd:sshd-osgi:jar:2.7.0:runtime
+[DEBUG]             org.apache.sshd:sshd-sftp:jar:2.7.0:runtime
+[DEBUG]                org.apache.sshd:sshd-core:jar:2.7.0:runtime
+[DEBUG]                   org.apache.sshd:sshd-common:jar:2.7.0:runtime
+[DEBUG]             net.i2p.crypto:eddsa:jar:0.3.0:runtime
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.7.36:runtime
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-hg:jar:2.1.0:runtime
+[DEBUG]       org.apache.maven.scm:maven-scm-provider-svnexe:jar:2.1.0:runtime
+[DEBUG]          org.apache.maven.scm:maven-scm-provider-svn-commons:jar:2.1.0:runtime
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:3.2.5:compile
+[DEBUG]          org.apache.maven.surefire:surefire-logger-api:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile
+[DEBUG]          org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-java:jar:1.2.0:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]       org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5:compile
+[DEBUG]    org.slf4j:jul-to-slf4j:jar:1.7.12:compile
+[DEBUG]    uk.org.lidalia:sysout-over-slf4j:jar:1.0.2:compile
+[DEBUG] Created new class realm plugin>org.pitest:pitest-maven:1.17.4
+[DEBUG] Importing foreign packages into class realm plugin>org.pitest:pitest-maven:1.17.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.pitest:pitest-maven:1.17.4
+[DEBUG]   Included: org.pitest:pitest-maven:jar:1.17.4
+[DEBUG]   Included: org.pitest:pitest-junit5-plugin:jar:1.2.1
+[DEBUG]   Included: org.junit.platform:junit-platform-launcher:jar:1.9.2
+[DEBUG]   Included: org.junit.platform:junit-platform-engine:jar:1.9.2
+[DEBUG]   Included: org.opentest4j:opentest4j:jar:1.2.0
+[DEBUG]   Included: org.junit.platform:junit-platform-commons:jar:1.9.2
+[DEBUG]   Included: org.apiguardian:apiguardian-api:jar:1.1.2
+[DEBUG]   Included: org.pitest:pitest-entry:jar:1.17.4
+[DEBUG]   Included: org.pitest:pitest:jar:1.17.4
+[DEBUG]   Included: org.ow2.asm:asm-commons:jar:9.7.1
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.7.1
+[DEBUG]   Included: org.ow2.asm:asm-util:jar:9.7.1
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:9.7.1
+[DEBUG]   Included: org.ow2.asm:asm-analysis:jar:9.7.1
+[DEBUG]   Included: org.apache.commons:commons-text:jar:1.12.0
+[DEBUG]   Included: org.pitest:pitest-html-report:jar:1.17.4
+[DEBUG]   Included: org.antlr:stringtemplate:jar:3.2.1
+[DEBUG]   Included: antlr:antlr:jar:2.7.7
+[DEBUG]   Included: org.pitest:pitest-aggregator:jar:1.17.4
+[DEBUG]   Included: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.17.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.17.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.17.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.17.0
+[DEBUG]   Included: net.bytebuddy:byte-buddy:jar:1.14.9
+[DEBUG]   Included: org.codehaus.woodstox:stax2-api:jar:4.2.2
+[DEBUG]   Included: com.fasterxml.woodstox:woodstox-core:jar:6.6.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.11.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.11.1
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.2
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.9.4
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.3.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:3.1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.3
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.11.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.11.1
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.7
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.5.13
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.11
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.14
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.11.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-skin-model:jar:1.11.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.11.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml5:jar:1.11.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.2
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.7
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.8
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-api:jar:2.1.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.14.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-manager-plexus:jar:2.1.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-providers-standard:pom:2.1.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-gitexe:jar:2.1.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-git-commons:jar:2.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-jgit:jar:2.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.3
+[DEBUG]   Included: org.eclipse.jgit:org.eclipse.jgit:jar:5.13.3.202401111512-r
+[DEBUG]   Included: com.googlecode.javaewah:JavaEWAH:jar:1.1.13
+[DEBUG]   Included: org.eclipse.jgit:org.eclipse.jgit.ssh.apache:jar:5.13.3.202401111512-r
+[DEBUG]   Included: org.apache.sshd:sshd-osgi:jar:2.7.0
+[DEBUG]   Included: org.apache.sshd:sshd-sftp:jar:2.7.0
+[DEBUG]   Included: org.apache.sshd:sshd-core:jar:2.7.0
+[DEBUG]   Included: org.apache.sshd:sshd-common:jar:2.7.0
+[DEBUG]   Included: net.i2p.crypto:eddsa:jar:0.3.0
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.7.36
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-hg:jar:2.1.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-svnexe:jar:2.1.0
+[DEBUG]   Included: org.apache.maven.scm:maven-scm-provider-svn-commons:jar:2.1.0
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-logger-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5
+[DEBUG]   Included: org.slf4j:jul-to-slf4j:jar:1.7.12
+[DEBUG]   Included: uk.org.lidalia:sysout-over-slf4j:jar:1.0.2
+[DEBUG] Loading mojo org.pitest:pitest-maven:1.17.4:mutationCoverage from plugin realm ClassRealm[plugin>org.pitest:pitest-maven:1.17.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27]
+[DEBUG] Configuring mojo execution 'org.pitest:pitest-maven:1.17.4:mutationCoverage:default-cli' with basic configurator -->
+[DEBUG]   (f) additionalClasspathElements = []
+[DEBUG]   (f) additionalSources = [/Users/cle/Downloads/JoshHack/src/main/kotlin]
+[DEBUG]   (f) additionalTestSources = [/Users/cle/Downloads/JoshHack/src/test/kotlin]
+[DEBUG]   (f) avoidCallsTo = []
+[DEBUG]   (f) classpathDependencyExcludes = []
+[DEBUG]   (f) coverageThreshold = 0
+[DEBUG]   (f) crossModule = false
+[DEBUG]   (f) detectInlinedCode = true
+[DEBUG]   (f) dryRun = false
+[DEBUG]   (f) excludedClasses = []
+[DEBUG]   (f) excludedGroups = []
+[DEBUG]   (f) excludedMethods = []
+[DEBUG]   (f) excludedRunners = []
+[DEBUG]   (f) excludedTestClasses = []
+[DEBUG]   (f) exportLineCoverage = false
+[DEBUG]   (f) extraFeatures = []
+[DEBUG]   (f) failWhenNoMutations = true
+[DEBUG]   (f) features = []
+[DEBUG]   (f) fullMutationMatrix = false
+[DEBUG]   (f) includedGroups = []
+[DEBUG]   (f) includedTestMethods = []
+[DEBUG]   (f) inputEncoding = UTF-8
+[DEBUG]   (f) jvmArgs = []
+[DEBUG]   (f) maxMutationsPerClass = -1
+[DEBUG]   (f) maxSurviving = -1
+[DEBUG]   (f) mutationEngine = gregor
+[DEBUG]   (f) mutationThreshold = 0
+[DEBUG]   (f) mutators = []
+[DEBUG]   (f) outputFormats = [HTML, XML]
+[DEBUG]   (f) parseSurefireArgLine = true
+[DEBUG]   (f) parseSurefireConfig = true
+[DEBUG]   (f) pluginArtifactMap = {org.pitest:pitest-maven=org.pitest:pitest-maven:maven-plugin:1.17.4:, org.pitest:pitest-junit5-plugin=org.pitest:pitest-junit5-plugin:jar:1.2.1:runtime, org.junit.platform:junit-platform-launcher=org.junit.platform:junit-platform-launcher:jar:1.9.2:runtime, org.junit.platform:junit-platform-engine=org.junit.platform:junit-platform-engine:jar:1.9.2:runtime, org.opentest4j:opentest4j=org.opentest4j:opentest4j:jar:1.2.0:runtime, org.junit.platform:junit-platform-commons=org.junit.platform:junit-platform-commons:jar:1.9.2:runtime, org.apiguardian:apiguardian-api=org.apiguardian:apiguardian-api:jar:1.1.2:runtime, org.pitest:pitest-entry=org.pitest:pitest-entry:jar:1.17.4:compile, org.pitest:pitest=org.pitest:pitest:jar:1.17.4:compile, org.ow2.asm:asm-commons=org.ow2.asm:asm-commons:jar:9.7.1:compile, org.ow2.asm:asm=org.ow2.asm:asm:jar:9.7.1:compile, org.ow2.asm:asm-util=org.ow2.asm:asm-util:jar:9.7.1:compile, org.ow2.asm:asm-tree=org.ow2.asm:asm-tree:jar:9.7.1:compile, org.ow2.asm:asm-analysis=org.ow2.asm:asm-analysis:jar:9.7.1:compile, org.apache.commons:commons-text=org.apache.commons:commons-text:jar:1.12.0:compile, org.pitest:pitest-html-report=org.pitest:pitest-html-report:jar:1.17.4:compile, org.antlr:stringtemplate=org.antlr:stringtemplate:jar:3.2.1:compile, antlr:antlr=antlr:antlr:jar:2.7.7:compile, org.pitest:pitest-aggregator=org.pitest:pitest-aggregator:jar:1.17.4:compile, com.fasterxml.jackson.dataformat:jackson-dataformat-xml=com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.17.0:compile, com.fasterxml.jackson.core:jackson-core=com.fasterxml.jackson.core:jackson-core:jar:2.17.0:compile, com.fasterxml.jackson.core:jackson-annotations=com.fasterxml.jackson.core:jackson-annotations:jar:2.17.0:compile, com.fasterxml.jackson.core:jackson-databind=com.fasterxml.jackson.core:jackson-databind:jar:2.17.0:compile, net.bytebuddy:byte-buddy=net.bytebuddy:byte-buddy:jar:1.14.9:compile, org.codehaus.woodstox:stax2-api=org.codehaus.woodstox:stax2-api:jar:4.2.2:compile, com.fasterxml.woodstox:woodstox-core=com.fasterxml.woodstox:woodstox-core:jar:6.6.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:3.1.0:compile, org.apache.maven.doxia:doxia-sink-api=org.apache.maven.doxia:doxia-sink-api:jar:1.11.1:compile, org.apache.maven.doxia:doxia-logging-api=org.apache.maven.doxia:doxia-logging-api:jar:1.11.1:compile, commons-collections:commons-collections=commons-collections:commons-collections:jar:3.2.2:compile, commons-beanutils:commons-beanutils=commons-beanutils:commons-beanutils:jar:1.9.4:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.2:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.3.1:compile, org.apache.maven.reporting:maven-reporting-impl=org.apache.maven.reporting:maven-reporting-impl:jar:3.1.0:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:3.8.6:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:3.8.6:compile, org.eclipse.sisu:org.eclipse.sisu.plexus=org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.5:compile, javax.annotation:javax.annotation-api=javax.annotation:javax.annotation-api:jar:1.2:compile, org.eclipse.sisu:org.eclipse.sisu.inject=org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.5:compile, org.codehaus.plexus:plexus-classworlds=org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile, org.codehaus.plexus:plexus-component-annotations=org.codehaus.plexus:plexus-component-annotations:jar:2.1.0:compile, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:3.1.0:compile, org.apache.maven.shared:maven-shared-utils=org.apache.maven.shared:maven-shared-utils:jar:3.3.3:compile, commons-io:commons-io=commons-io:commons-io:jar:2.6:compile, org.apache.maven.doxia:doxia-decoration-model=org.apache.maven.doxia:doxia-decoration-model:jar:1.11.1:compile, org.apache.maven.doxia:doxia-core=org.apache.maven.doxia:doxia-core:jar:1.11.1:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:2.1.0:compile, org.apache.xbean:xbean-reflect=org.apache.xbean:xbean-reflect:jar:3.7:compile, com.google.collections:google-collections=com.google.collections:google-collections:jar:1.0:compile, org.apache.httpcomponents:httpclient=org.apache.httpcomponents:httpclient:jar:4.5.13:compile, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.11:compile, org.apache.httpcomponents:httpcore=org.apache.httpcomponents:httpcore:jar:4.4.14:compile, org.apache.maven.doxia:doxia-site-renderer=org.apache.maven.doxia:doxia-site-renderer:jar:1.11.1:compile, org.apache.maven.doxia:doxia-skin-model=org.apache.maven.doxia:doxia-skin-model:jar:1.11.1:compile, org.apache.maven.doxia:doxia-module-xhtml=org.apache.maven.doxia:doxia-module-xhtml:jar:1.11.1:compile, org.apache.maven.doxia:doxia-module-xhtml5=org.apache.maven.doxia:doxia-module-xhtml5:jar:1.11.1:compile, org.codehaus.plexus:plexus-i18n=org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10:compile, org.codehaus.plexus:plexus-velocity=org.codehaus.plexus:plexus-velocity:jar:1.2:compile, org.apache.velocity:velocity=org.apache.velocity:velocity:jar:1.7:compile, commons-lang:commons-lang=commons-lang:commons-lang:jar:2.4:compile, org.apache.velocity:velocity-tools=org.apache.velocity:velocity-tools:jar:2.0:compile, commons-digester:commons-digester=commons-digester:commons-digester:jar:1.8:compile, commons-chain:commons-chain=commons-chain:commons-chain:jar:1.1:compile, dom4j:dom4j=dom4j:dom4j:jar:1.1:compile, oro:oro=oro:oro:jar:2.0.8:compile, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven.scm:maven-scm-api=org.apache.maven.scm:maven-scm-api:jar:2.1.0:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.7.36:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.14.0:compile, org.apache.maven.scm:maven-scm-manager-plexus=org.apache.maven.scm:maven-scm-manager-plexus:jar:2.1.0:compile, javax.inject:javax.inject=javax.inject:javax.inject:jar:1:compile, org.apache.maven.scm:maven-scm-providers-standard=org.apache.maven.scm:maven-scm-providers-standard:pom:2.1.0:compile, org.apache.maven.scm:maven-scm-provider-gitexe=org.apache.maven.scm:maven-scm-provider-gitexe:jar:2.1.0:runtime, org.apache.maven.scm:maven-scm-provider-git-commons=org.apache.maven.scm:maven-scm-provider-git-commons:jar:2.1.0:runtime, org.codehaus.plexus:plexus-xml=org.codehaus.plexus:plexus-xml:jar:3.0.0:runtime, org.apache.maven.scm:maven-scm-provider-jgit=org.apache.maven.scm:maven-scm-provider-jgit:jar:2.1.0:runtime, org.codehaus.plexus:plexus-interactivity-api=org.codehaus.plexus:plexus-interactivity-api:jar:1.3:runtime, org.eclipse.jgit:org.eclipse.jgit=org.eclipse.jgit:org.eclipse.jgit:jar:5.13.3.202401111512-r:runtime, com.googlecode.javaewah:JavaEWAH=com.googlecode.javaewah:JavaEWAH:jar:1.1.13:runtime, org.eclipse.jgit:org.eclipse.jgit.ssh.apache=org.eclipse.jgit:org.eclipse.jgit.ssh.apache:jar:5.13.3.202401111512-r:runtime, org.apache.sshd:sshd-osgi=org.apache.sshd:sshd-osgi:jar:2.7.0:runtime, org.apache.sshd:sshd-sftp=org.apache.sshd:sshd-sftp:jar:2.7.0:runtime, org.apache.sshd:sshd-core=org.apache.sshd:sshd-core:jar:2.7.0:runtime, org.apache.sshd:sshd-common=org.apache.sshd:sshd-common:jar:2.7.0:runtime, net.i2p.crypto:eddsa=net.i2p.crypto:eddsa:jar:0.3.0:runtime, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.7.36:runtime, org.apache.maven.scm:maven-scm-provider-hg=org.apache.maven.scm:maven-scm-provider-hg:jar:2.1.0:runtime, org.apache.maven.scm:maven-scm-provider-svnexe=org.apache.maven.scm:maven-scm-provider-svnexe:jar:2.1.0:runtime, org.apache.maven.scm:maven-scm-provider-svn-commons=org.apache.maven.scm:maven-scm-provider-svn-commons:jar:2.1.0:runtime, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:3.2.5:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-logger-api=org.apache.maven.surefire:surefire-logger-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-extensions-spi=org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:3.2.5:compile, org.apache.maven.surefire:surefire-extensions-api=org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5:compile, org.eclipse.aether:aether-util=org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile, org.eclipse.aether:aether-api=org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile, org.codehaus.plexus:plexus-java=org.codehaus.plexus:plexus-java:jar:1.2.0:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:2.0.3:compile, org.apache.maven.surefire:surefire-shared-utils=org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5:compile, org.slf4j:jul-to-slf4j=org.slf4j:jul-to-slf4j:jar:1.7.12:compile, uk.org.lidalia:sysout-over-slf4j=uk.org.lidalia:sysout-over-slf4j:jar:1.0.2:compile}
+[DEBUG]   (f) project = MavenProject: edu.towson.cis.cosc442:joshhack:1.0-SNAPSHOT @ /Users/cle/Downloads/JoshHack/pom.xml
+[DEBUG]   (f) projectBase = /Users/cle/Downloads/JoshHack
+[DEBUG]   (f) reportsDirectory = /Users/cle/Downloads/JoshHack/target/pit-reports
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@6fe595dc
+[DEBUG]   (f) settings = org.apache.maven.execution.SettingsAdapter@5af5d76f
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) skipFailingTests = false
+[DEBUG]   (f) skipTests = false
+[DEBUG]   (s) targetClasses = [game.*]
+[DEBUG]   (s) targetTests = [game.*]
+[DEBUG]   (f) testStrengthThreshold = 0
+[DEBUG]   (f) threads = 1
+[DEBUG]   (f) timeoutConstant = 3000
+[DEBUG]   (f) timeoutFactor = 1.25
+[DEBUG]   (s) timestampedReports = false
+[DEBUG]   (f) useClasspathJar = false
+[DEBUG]   (f) useSlf4j = false
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) verbosity = DEFAULT
+[DEBUG]   (f) withHistory = false
+[DEBUG] -- end configuration --
+[INFO] Root dir is : /Users/cle/Downloads/JoshHack
+[INFO] Found plugin : Default csv report plugin
+[INFO] Found plugin : Default xml report plugin
+[INFO] Found plugin : Default html report plugin
+[INFO] Found plugin : Static initializer code detector plugin
+[INFO] Found plugin : Excluded annotations plugin
+[INFO] Found plugin : Try with resources filter
+[INFO] Found plugin : Inlined finally block filter plugin
+[INFO] Found plugin : Implicit null check filter
+[INFO] Found plugin : Method reference null check filter
+[INFO] Found plugin : For each loop filter
+[INFO] Found plugin : Enum junk filter
+[INFO] Found plugin : Record junk mutation filter
+[INFO] Found plugin : String switch filter
+[INFO] Found plugin : Assertions filter
+[INFO] Found plugin : Enum switch filter
+[INFO] Found plugin : Logging calls filter
+[INFO] Found plugin : Infinite for loop filter
+[INFO] Found plugin : Long running iterator loop filter
+[INFO] Found plugin : For loop counter filter
+[INFO] Found plugin : Kotlin junk mutations filter
+[INFO] Found plugin : Groovy junk mutations filter
+[INFO] Found plugin : Max mutations per class limit
+[INFO] Found plugin : Equals shortcut equivalent mutant filter
+[INFO] Found plugin : Trivial return vals equivalence filter
+[INFO] Found plugin : Filters mutants with line number <= 1
+[INFO] Found plugin : Division by one equivalent mutant filter
+[INFO] Found plugin : Lombok junk mutations filter
+[INFO] Found plugin : Filter mutations to defensive wrappers such as unmodifiableCollection on return or field write
+[INFO] Found plugin : Mutant export plugin
+[INFO] Found plugin : Auto add java.awt.headless=true to keep keyboard focus on Mac OS
+[INFO] Found plugin : Auto set number of threads based on machine
+[INFO] Found plugin : Automatically add -ea to launch args to enable assertions
+[INFO] Found plugin : Default build verifier
+[INFO] Found plugin : Detect missing JUnit5 plugin
+[INFO] Found plugin : Detect missing TestNG plugin
+[INFO] Found plugin : Detect missing kotlin plugin
+[INFO] Found plugin : Detect missing spring plugin
+[INFO] Found plugin : Default coverage exporter
+[INFO] Found shared classpath plugin : Default mutation engine
+[INFO] Found shared classpath plugin : JUnit 5 test framework support
+[INFO] Found shared classpath plugin : JUnit plugin
+[INFO] Found shared classpath plugin : Support for mocking frameworks using javassist
+[INFO] Found shared classpath plugin : Reset environment for javassist
+[INFO] Available mutators : EXPERIMENTAL_ARGUMENT_PROPAGATION,FALSE_RETURNS,TRUE_RETURNS,CONDITIONALS_BOUNDARY,CONSTRUCTOR_CALLS,EMPTY_RETURNS,INCREMENTS,INLINE_CONSTS,INVERT_NEGS,MATH,NEGATE_CONDITIONALS,NON_VOID_METHOD_CALLS,NULL_RETURNS,PRIMITIVE_RETURNS,REMOVE_CONDITIONALS_EQUAL_IF,REMOVE_CONDITIONALS_EQUAL_ELSE,REMOVE_CONDITIONALS_ORDER_IF,REMOVE_CONDITIONALS_ORDER_ELSE,VOID_METHOD_CALLS,EXPERIMENTAL_BIG_DECIMAL,EXPERIMENTAL_BIG_INTEGER,EXPERIMENTAL_MEMBER_VARIABLE,EXPERIMENTAL_NAKED_RECEIVER,REMOVE_INCREMENTS,EXPERIMENTAL_SWITCH
+[INFO] Adding org.pitest:pitest-junit5-plugin to SUT classpath
+[INFO] Adding org.pitest:pitest to SUT classpath
+[INFO] Auto adding org.junit.platform:junit-platform-launcher:jar:1.14.1 < central (https://repo.maven.apache.org/maven2, default, releases) to classpath.
+[INFO] Mutating from /Users/cle/Downloads/JoshHack/target/classes
+4:46:29 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+4:46:30 PM PIT >> INFO : Created 47 mutation test units in pre scan
+4:46:30 PM PIT >> INFO : Sending 49 test classes to minion
+4:46:30 PM PIT >> INFO : Sent tests to minion
+4:46:30 PM PIT >> SEVERE : Coverage generator Minion exited abnormally due to UNKNOWN_ERROR
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.940 s
+[INFO] Finished at: 2026-11-11T16:46:30-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.pitest:pitest-maven:1.17.4:mutationCoverage (default-cli) on project joshhack: Execution default-cli of goal org.pitest:pitest-maven:1.17.4:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)
+[ERROR] 
+[ERROR] Please copy and paste the information and the complete stacktrace below when reporting an issue
+[ERROR] VM : OpenJDK 64-Bit Server VM
+[ERROR] Vendor : Eclipse Adoptium
+[ERROR] Version : 17.0.21+9
+[ERROR] Uptime : 1560
+[ERROR] Input -> 
+[ERROR]  1 : --enable-native-access=ALL-UNNAMED
+[ERROR]  2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+[ERROR]  3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+[ERROR]  4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+[ERROR]  5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+[ERROR] BootClassPathSupported : false
+[ERROR] 
+[ERROR] 
+[ERROR] Please copy and paste the information and the complete stacktrace below when reporting an issue
+[ERROR] VM : OpenJDK 64-Bit Server VM
+[ERROR] Vendor : Eclipse Adoptium
+[ERROR] Version : 17.0.21+9
+[ERROR] Uptime : 1560
+[ERROR] Input -> 
+[ERROR]  1 : --enable-native-access=ALL-UNNAMED
+[ERROR]  2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+[ERROR]  3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+[ERROR]  4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+[ERROR]  5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+[ERROR] BootClassPathSupported : false
+[ERROR] 
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.pitest:pitest-maven:1.17.4:mutationCoverage (default-cli) on project joshhack: Execution default-cli of goal org.pitest:pitest-maven:1.17.4:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : OpenJDK 64-Bit Server VM
+Vendor : Eclipse Adoptium
+Version : 17.0.21+9
+Uptime : 1560
+Input -> 
+ 1 : --enable-native-access=ALL-UNNAMED
+ 2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+ 3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+ 4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+ 5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+BootClassPathSupported : false
+
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : OpenJDK 64-Bit Server VM
+Vendor : Eclipse Adoptium
+Version : 17.0.21+9
+Uptime : 1560
+Input -> 
+ 1 : --enable-native-access=ALL-UNNAMED
+ 2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+ 3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+ 4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+ 5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+BootClassPathSupported : false
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.PluginExecutionException: Execution default-cli of goal org.pitest:pitest-maven:1.17.4:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : OpenJDK 64-Bit Server VM
+Vendor : Eclipse Adoptium
+Version : 17.0.21+9
+Uptime : 1560
+Input -> 
+ 1 : --enable-native-access=ALL-UNNAMED
+ 2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+ 3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+ 4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+ 5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+BootClassPathSupported : false
+
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : OpenJDK 64-Bit Server VM
+Vendor : Eclipse Adoptium
+Version : 17.0.21+9
+Uptime : 1560
+Input -> 
+ 1 : --enable-native-access=ALL-UNNAMED
+ 2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+ 3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+ 4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+ 5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+BootClassPathSupported : false
+
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:133)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.pitest.util.PitError: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : OpenJDK 64-Bit Server VM
+Vendor : Eclipse Adoptium
+Version : 17.0.21+9
+Uptime : 1560
+Input -> 
+ 1 : --enable-native-access=ALL-UNNAMED
+ 2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+ 3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+ 4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+ 5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+BootClassPathSupported : false
+
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : OpenJDK 64-Bit Server VM
+Vendor : Eclipse Adoptium
+Version : 17.0.21+9
+Uptime : 1560
+Input -> 
+ 1 : --enable-native-access=ALL-UNNAMED
+ 2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+ 3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+ 4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+ 5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+BootClassPathSupported : false
+
+    at org.pitest.util.Unchecked.translateCheckedException (Unchecked.java:20)
+    at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage (DefaultCoverageGenerator.java:118)
+    at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage (DefaultCoverageGenerator.java:53)
+    at org.pitest.mutationtest.tooling.MutationCoverage.runAnalysis (MutationCoverage.java:158)
+    at org.pitest.mutationtest.tooling.MutationCoverage.runReport (MutationCoverage.java:145)
+    at org.pitest.mutationtest.tooling.EntryPoint.execute (EntryPoint.java:138)
+    at org.pitest.mutationtest.tooling.EntryPoint.execute (EntryPoint.java:64)
+    at org.pitest.maven.RunPitStrategy.execute (RunPitStrategy.java:35)
+    at org.pitest.maven.AbstractPitMojo.analyse (AbstractPitMojo.java:573)
+    at org.pitest.maven.AbstractPitMojo.execute (AbstractPitMojo.java:477)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.pitest.util.PitError: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : OpenJDK 64-Bit Server VM
+Vendor : Eclipse Adoptium
+Version : 17.0.21+9
+Uptime : 1560
+Input -> 
+ 1 : --enable-native-access=ALL-UNNAMED
+ 2 : -Dclassworlds.conf=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/bin/m2.conf
+ 3 : -Dmaven.home=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f
+ 4 : -Dlibrary.jansi.path=/Users/cle/.m2/wrapper/dists/apache-maven-3.9.16/56ba1f9f/lib/jansi-native
+ 5 : -Dmaven.multiModuleProjectDirectory=/Users/cle/Downloads/JoshHack
+BootClassPathSupported : false
+
+    at org.pitest.coverage.execute.DefaultCoverageGenerator.gatherCoverageData (DefaultCoverageGenerator.java:157)
+    at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage (DefaultCoverageGenerator.java:101)
+    at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage (DefaultCoverageGenerator.java:53)
+    at org.pitest.mutationtest.tooling.MutationCoverage.runAnalysis (MutationCoverage.java:158)
+    at org.pitest.mutationtest.tooling.MutationCoverage.runReport (MutationCoverage.java:145)
+    at org.pitest.mutationtest.tooling.EntryPoint.execute (EntryPoint.java:138)
+    at org.pitest.mutationtest.tooling.EntryPoint.execute (EntryPoint.java:64)
+    at org.pitest.maven.RunPitStrategy.execute (RunPitStrategy.java:35)
+    at org.pitest.maven.AbstractPitMojo.analyse (AbstractPitMojo.java:573)
+    at org.pitest.maven.AbstractPitMojo.execute (AbstractPitMojo.java:477)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
