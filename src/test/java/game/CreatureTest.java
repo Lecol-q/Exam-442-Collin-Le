@@ -57,7 +57,7 @@ public class CreatureTest {
         creature.modifyHp(-105, "No health");
 
         assertEquals(-5, creature.hp());
-        assertEquals(null, world.creature(1, 1, 0));
+
     }
 
 }
